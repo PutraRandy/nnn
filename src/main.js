@@ -10,9 +10,9 @@ const { Message, OpType, Location } = require('../curve-thrift/line_types');
 //let exec = require('child_process').exec;
 
 //TOLONG GANTI SEMUA SEPERTI LOCKUPDATEGROUP TAPI MSG SERTA UNMUTE/MUTE JAN LU OTAK ATIK BEGO~//
-const myBott = ['u14f64e139a3817afaabe27d237afb36b'];//TARO MID LU DISINI SUPAYA BISA PKE COMMAND STAFF
+const myBott = ['ub3db3cc8a5db36da5186eb52d14bfaa9'];//TARO MID LU DISINI SUPAYA BISA PKE COMMAND STAFF
 
-const myBot = ['u14f64e139a3817afaabe27d237afb36b'];//TARO MID LU DISINI
+const myBot = ['ub3db3cc8a5db36da5186eb52d14bfaa9'];//TARO MID LU DISINI
 var vx = {};var midnornama = "";var pesane = "";var kickhim = "";var waitMsg = "no";//DO NOT CHANGE THIS
 
 function isAdminOrBot(param) {
@@ -572,9 +572,9 @@ let { listMember } = await this.searchGroup(seq.to);
          }
 
         if(txt == '#creator') {
-           this._sendMessage(seq, 'My Creator Is Bee\nId Line : http://line.me/ti/p/~nad_nad.\n\n-NADYA-');
+           this._sendMessage(seq, 'My Creator Is Bee\nId Line : http://line.me/ti/p/~405_pom\n\n-D a N a I-');
            seq.contentType=13;
-           seq.contentMetadata = { mid: 'u14f64e139a3817afaabe27d237afb36b' };
+           seq.contentMetadata = { mid: 'ub3db3cc8a5db36da5186eb52d14bfaa9' };
            this._client.sendMessage(1, seq);
         }
 
